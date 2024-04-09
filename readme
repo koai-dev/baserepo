@@ -2,7 +2,7 @@
 - To use, please setup project flow under steps:
 1. In settings.gradle, add this in repositories:
 
-        maven ("https://koai-dev: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@maven.pkg.github.com/koai-dev/baserepo")
+        maven ("https://koai-dev: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@maven.pkg.github.com/koai-dev/baserepo")
 
 2. In build.gradle (level app module), add this in dependencies:
 
