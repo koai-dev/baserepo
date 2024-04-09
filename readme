@@ -4,7 +4,7 @@
         maven ("https://maven.pkg.github.com/koai-dev/baserepo"){
             credentials{
                 username = "koai-dev"
-                password = "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"
+                password = "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"
             }
         }
 2. In build.gradle (level app module), add this in dependencies:
