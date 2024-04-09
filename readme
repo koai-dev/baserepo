@@ -1,1 +1,11 @@
-contain all repos of koai
+- Contain all repos of koai
+- To use, please setup project flow under steps:
+1. In settings.gradle, add this in repositories:
+        maven ("https://maven.pkg.github.com/koai-dev/baserepo"){
+            credentials{
+                username = "koai-dev"
+                password = "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"
+            }
+        }
+2. In build.gradle (level app module), add this in dependencies:
+        implementation("com.koai:base:${latestVersion}")
